@@ -1,7 +1,7 @@
 {
   "rootTopicKey": "609740a2-bfaa-4b78-bf69-e0a88d79217c",
   "editorRootTopicKey": "609740a2-bfaa-4b78-bf69-e0a88d79217c",
-  "focusKey": "716cd011-e5ec-4d8c-bf39-0cefe1eb5629",
+  "focusKey": "4f4395c4-4824-42cb-8d29-f7a41150522e",
   "extData": {
     "TOPIC_REFERENCE": {
       "reference": {}
@@ -37,6 +37,19 @@
         {
           "type": "CONTENT",
           "data": "Public Cloud"
+        }
+      ]
+    },
+    {
+      "key": "7b92b9c8-c6eb-458b-b7f0-78ef6d0a1e34",
+      "parentKey": "4f4395c4-4824-42cb-8d29-f7a41150522e",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "ADX"
         }
       ]
     },
@@ -84,6 +97,34 @@
       ]
     },
     {
+      "key": "2c8f2dd9-93c8-4d06-b8b9-484054f09610",
+      "parentKey": "0f45b834-b20c-4434-8a71-343a4f687c3f",
+      "subKeys": [
+        "5a2f6954-7b1e-416c-a347-9a6168b77d87"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Strong Vision"
+        }
+      ]
+    },
+    {
+      "key": "f6441e04-f81d-4787-b630-117466dfc8ec",
+      "parentKey": "e9db9775-a70c-439b-a15f-f127c7e9144a",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Data Connectors"
+        }
+      ]
+    },
+    {
       "key": "4cce8142-2e15-4437-a827-86360d8d512d",
       "parentKey": "1b30efbe-52c6-42e3-8dc2-b53fd376d423",
       "subKeys": [],
@@ -113,6 +154,19 @@
       ]
     },
     {
+      "key": "33c9fef3-5c97-4abc-ab20-aa94e8c02638",
+      "parentKey": "e9db9775-a70c-439b-a15f-f127c7e9144a",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "External Threat Intelligence Sources"
+        }
+      ]
+    },
+    {
       "key": "801fa852-6b77-4e8b-bc0c-f8f696dc6f00",
       "parentKey": "71441a94-706d-43f2-8bc0-164c3859bbd5",
       "subKeys": [
@@ -128,15 +182,48 @@
       ]
     },
     {
+      "key": "0f45b834-b20c-4434-8a71-343a4f687c3f",
+      "parentKey": "37f6a474-6cf5-4a4c-9b8c-4a451cc2437d",
+      "subKeys": [
+        "638067ba-50f6-437b-ac4c-4f497293a2b7",
+        "2c8f2dd9-93c8-4d06-b8b9-484054f09610"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Governance"
+        }
+      ]
+    },
+    {
       "key": "37f6a474-6cf5-4a4c-9b8c-4a451cc2437d",
       "parentKey": "4883d247-615e-4928-a93a-9e470de11688",
-      "subKeys": [],
+      "subKeys": [
+        "e9db9775-a70c-439b-a15f-f127c7e9144a",
+        "0f45b834-b20c-4434-8a71-343a4f687c3f",
+        "4f4395c4-4824-42cb-8d29-f7a41150522e"
+      ],
       "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
           "data": "Microsoft Sentinel"
+        }
+      ]
+    },
+    {
+      "key": "eca531c8-e069-49b8-bc7b-949691814894",
+      "parentKey": "638067ba-50f6-437b-ac4c-4f497293a2b7",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Lack of awareness"
         }
       ]
     },
@@ -172,6 +259,21 @@
       ]
     },
     {
+      "key": "4f4395c4-4824-42cb-8d29-f7a41150522e",
+      "parentKey": "37f6a474-6cf5-4a4c-9b8c-4a451cc2437d",
+      "subKeys": [
+        "7b92b9c8-c6eb-458b-b7f0-78ef6d0a1e34"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Threat Hunting"
+        }
+      ]
+    },
+    {
       "key": "981fe1e1-5685-49f0-a3ff-fc431ed43fa6",
       "parentKey": "7f9087d6-ad78-43af-a6e9-0708b7fd0c0b",
       "subKeys": [],
@@ -181,6 +283,23 @@
         {
           "type": "CONTENT",
           "data": "Microsoft Defender for Endpoint"
+        }
+      ]
+    },
+    {
+      "key": "e9db9775-a70c-439b-a15f-f127c7e9144a",
+      "parentKey": "37f6a474-6cf5-4a4c-9b8c-4a451cc2437d",
+      "subKeys": [
+        "f6441e04-f81d-4787-b630-117466dfc8ec",
+        "33c9fef3-5c97-4abc-ab20-aa94e8c02638",
+        "475d2c18-f241-4e42-b60d-13c7c89e7274"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Architecture"
         }
       ]
     },
@@ -228,6 +347,21 @@
       ]
     },
     {
+      "key": "638067ba-50f6-437b-ac4c-4f497293a2b7",
+      "parentKey": "0f45b834-b20c-4434-8a71-343a4f687c3f",
+      "subKeys": [
+        "eca531c8-e069-49b8-bc7b-949691814894"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Weak Vision"
+        }
+      ]
+    },
+    {
       "key": "009ca1c5-cc9d-458d-8006-372928c79802",
       "parentKey": "4883d247-615e-4928-a93a-9e470de11688",
       "subKeys": [],
@@ -237,6 +371,19 @@
         {
           "type": "CONTENT",
           "data": "ADX"
+        }
+      ]
+    },
+    {
+      "key": "475d2c18-f241-4e42-b60d-13c7c89e7274",
+      "parentKey": "e9db9775-a70c-439b-a15f-f127c7e9144a",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Long Term Log Retention"
         }
       ]
     },
@@ -294,6 +441,19 @@
         {
           "type": "CONTENT",
           "data": "Office 365"
+        }
+      ]
+    },
+    {
+      "key": "5a2f6954-7b1e-416c-a347-9a6168b77d87",
+      "parentKey": "2c8f2dd9-93c8-4d06-b8b9-484054f09610",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Data Control"
         }
       ]
     },
