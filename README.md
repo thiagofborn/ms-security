@@ -13,3 +13,7 @@ awehook.vscode-blink-mind
 We can enrich using notes added to the nodes.
 
 ![Adding notes to the nodes](/media/support_notes.png)
+
+## References
+
+* [Licensing - Workstation](https://m365maps.com/)
