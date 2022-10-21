@@ -2,7 +2,7 @@
  The initial survival guide for Microsoft security Babel Tower.
 
 ## Resources for VS Code
-
+We need to install an extension to help us visualize the Mindmap.
 
 ```extension-id-vs-code
 # For the Mindmap
