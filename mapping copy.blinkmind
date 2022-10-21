@@ -1,0 +1,392 @@
+{
+  "rootTopicKey": "609740a2-bfaa-4b78-bf69-e0a88d79217c",
+  "editorRootTopicKey": "609740a2-bfaa-4b78-bf69-e0a88d79217c",
+  "focusKey": "716cd011-e5ec-4d8c-bf39-0cefe1eb5629",
+  "extData": {
+    "TOPIC_REFERENCE": {
+      "reference": {}
+    }
+  },
+  "topics": [
+    {
+      "key": "71441a94-706d-43f2-8bc0-164c3859bbd5",
+      "parentKey": "508f7a99-4801-4c31-8451-91d92d261d4d",
+      "subKeys": [
+        "5a1c255d-a354-4b30-8aa6-77613251646f",
+        "801fa852-6b77-4e8b-bc0c-f8f696dc6f00",
+        "bfe4d7fa-9967-4d33-8646-04590eec635b"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "MS Defender for Cloud"
+        }
+      ]
+    },
+    {
+      "key": "3d20b4dd-2e0b-491f-ab42-e40d31562307",
+      "parentKey": "609740a2-bfaa-4b78-bf69-e0a88d79217c",
+      "subKeys": [
+        "5a36d153-e825-4254-addc-72ea0eaa6c43"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Public Cloud"
+        }
+      ]
+    },
+    {
+      "key": "27f6b11f-a2f5-4e96-bb6e-09bddab4efe4",
+      "parentKey": "5a1c255d-a354-4b30-8aa6-77613251646f",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Azure Storage Account"
+        }
+      ]
+    },
+    {
+      "key": "8043ae06-7172-4afb-bb3c-ae69c0519e01",
+      "parentKey": "bfe4d7fa-9967-4d33-8646-04590eec635b",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Azure DNS"
+        }
+      ]
+    },
+    {
+      "key": "609740a2-bfaa-4b78-bf69-e0a88d79217c",
+      "parentKey": null,
+      "subKeys": [
+        "508f7a99-4801-4c31-8451-91d92d261d4d",
+        "3d20b4dd-2e0b-491f-ab42-e40d31562307",
+        "716cd011-e5ec-4d8c-bf39-0cefe1eb5629"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Security"
+        }
+      ]
+    },
+    {
+      "key": "4cce8142-2e15-4437-a827-86360d8d512d",
+      "parentKey": "1b30efbe-52c6-42e3-8dc2-b53fd376d423",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Microsoft Defender for Endpoint"
+        }
+      ]
+    },
+    {
+      "key": "508f7a99-4801-4c31-8451-91d92d261d4d",
+      "parentKey": "609740a2-bfaa-4b78-bf69-e0a88d79217c",
+      "subKeys": [
+        "71441a94-706d-43f2-8bc0-164c3859bbd5",
+        "4883d247-615e-4928-a93a-9e470de11688"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Azure"
+        }
+      ]
+    },
+    {
+      "key": "801fa852-6b77-4e8b-bc0c-f8f696dc6f00",
+      "parentKey": "71441a94-706d-43f2-8bc0-164c3859bbd5",
+      "subKeys": [
+        "a941ea41-8387-4f17-893a-7609f262c8d6"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "PaaS"
+        }
+      ]
+    },
+    {
+      "key": "37f6a474-6cf5-4a4c-9b8c-4a451cc2437d",
+      "parentKey": "4883d247-615e-4928-a93a-9e470de11688",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Microsoft Sentinel"
+        }
+      ]
+    },
+    {
+      "key": "48691d9a-efb1-49cd-9897-8acba15d32f5",
+      "parentKey": "5a1c255d-a354-4b30-8aa6-77613251646f",
+      "subKeys": [
+        "766f5823-46bf-4c50-be1a-4dfff5b14eb7"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "VMs"
+        }
+      ]
+    },
+    {
+      "key": "5a1c255d-a354-4b30-8aa6-77613251646f",
+      "parentKey": "71441a94-706d-43f2-8bc0-164c3859bbd5",
+      "subKeys": [
+        "48691d9a-efb1-49cd-9897-8acba15d32f5",
+        "27f6b11f-a2f5-4e96-bb6e-09bddab4efe4"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "IaaS"
+        }
+      ]
+    },
+    {
+      "key": "981fe1e1-5685-49f0-a3ff-fc431ed43fa6",
+      "parentKey": "7f9087d6-ad78-43af-a6e9-0708b7fd0c0b",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Microsoft Defender for Endpoint"
+        }
+      ]
+    },
+    {
+      "key": "a941ea41-8387-4f17-893a-7609f262c8d6",
+      "parentKey": "801fa852-6b77-4e8b-bc0c-f8f696dc6f00",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Azure SQL"
+        }
+      ]
+    },
+    {
+      "key": "bfe4d7fa-9967-4d33-8646-04590eec635b",
+      "parentKey": "71441a94-706d-43f2-8bc0-164c3859bbd5",
+      "subKeys": [
+        "8043ae06-7172-4afb-bb3c-ae69c0519e01"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "SaaS"
+        }
+      ]
+    },
+    {
+      "key": "7f9087d6-ad78-43af-a6e9-0708b7fd0c0b",
+      "parentKey": "766f5823-46bf-4c50-be1a-4dfff5b14eb7",
+      "subKeys": [
+        "981fe1e1-5685-49f0-a3ff-fc431ed43fa6"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "P1"
+        }
+      ]
+    },
+    {
+      "key": "009ca1c5-cc9d-458d-8006-372928c79802",
+      "parentKey": "4883d247-615e-4928-a93a-9e470de11688",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "ADX"
+        }
+      ]
+    },
+    {
+      "key": "5a36d153-e825-4254-addc-72ea0eaa6c43",
+      "parentKey": "3d20b4dd-2e0b-491f-ab42-e40d31562307",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "MS Defender for Cloud"
+        }
+      ]
+    },
+    {
+      "key": "1b30efbe-52c6-42e3-8dc2-b53fd376d423",
+      "parentKey": "766f5823-46bf-4c50-be1a-4dfff5b14eb7",
+      "subKeys": [
+        "4cce8142-2e15-4437-a827-86360d8d512d"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "P2"
+        }
+      ]
+    },
+    {
+      "key": "766f5823-46bf-4c50-be1a-4dfff5b14eb7",
+      "parentKey": "48691d9a-efb1-49cd-9897-8acba15d32f5",
+      "subKeys": [
+        "7f9087d6-ad78-43af-a6e9-0708b7fd0c0b",
+        "1b30efbe-52c6-42e3-8dc2-b53fd376d423"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Plans"
+        }
+      ]
+    },
+    {
+      "key": "716cd011-e5ec-4d8c-bf39-0cefe1eb5629",
+      "parentKey": "609740a2-bfaa-4b78-bf69-e0a88d79217c",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Office 365"
+        }
+      ]
+    },
+    {
+      "key": "78d55c2c-bf98-4ce8-a856-669f0e0936a9",
+      "parentKey": "4883d247-615e-4928-a93a-9e470de11688",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Azure Monitor"
+        }
+      ]
+    },
+    {
+      "key": "4883d247-615e-4928-a93a-9e470de11688",
+      "parentKey": "508f7a99-4801-4c31-8451-91d92d261d4d",
+      "subKeys": [
+        "37f6a474-6cf5-4a4c-9b8c-4a451cc2437d",
+        "78d55c2c-bf98-4ce8-a856-669f0e0936a9",
+        "009ca1c5-cc9d-458d-8006-372928c79802"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Observability"
+        }
+      ]
+    }
+  ],
+  "config": {
+    "readOnly": false,
+    "allowUndo": true,
+    "layoutDir": 2,
+    "theme": {
+      "name": "default",
+      "randomColor": true,
+      "background": "rgb(57,60,65)",
+      "highlightColor": "#50C9CE",
+      "marginH": 60,
+      "marginV": 20,
+      "contentStyle": {
+        "lineHeight": "1.5"
+      },
+      "linkStyle": {
+        "lineRadius": 5,
+        "lineType": "curve",
+        "lineWidth": "3px"
+      },
+      "rootTopic": {
+        "contentStyle": {
+          "fontSize": "34px",
+          "borderRadius": "35px",
+          "padding": "16px 18px 16px 18px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px",
+          "lineColor": "rgb(113, 203, 45)"
+        }
+      },
+      "primaryTopic": {
+        "contentStyle": {
+          "borderWidth": "1px",
+          "borderStyle": "solid",
+          "borderRadius": "20px",
+          "fontSize": "17px",
+          "padding": "10px 15px 10px 15px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px",
+          "lineColor": "rgb(113, 203, 45)"
+        }
+      },
+      "normalTopic": {
+        "contentStyle": {
+          "border": "1px solid #e8eaec",
+          "borderRadius": "20px",
+          "fontSize": "17px",
+          "padding": "4px 10px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px",
+          "lineColor": "white"
+        }
+      }
+    }
+  },
+  "formatVersion": "0.0"
+}
