@@ -1,7 +1,7 @@
 {
   "rootTopicKey": "609740a2-bfaa-4b78-bf69-e0a88d79217c",
   "editorRootTopicKey": "609740a2-bfaa-4b78-bf69-e0a88d79217c",
-  "focusKey": "4f4395c4-4824-42cb-8d29-f7a41150522e",
+  "focusKey": "a941ea41-8387-4f17-893a-7609f262c8d6",
   "extData": {
     "TOPIC_REFERENCE": {
       "reference": {}
@@ -75,7 +75,11 @@
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "Azure DNS"
+          "data": "DNS"
+        },
+        {
+          "type": "DESC",
+          "data": "## Covers\n\n* Agentless protection for resources using Azure DNS's name resolution\n* Detects data exfiltration through DNS tunneling\n* Detects malware communications with command and control servers\n* Detects communication with malicious DNS resolvers\n* Detects communication with domains used for malicious activities\n* Detects other suspicious and anomalous activities\n* Provides guidelines to help investigate and mitigate identified threats\n\n"
         }
       ]
     },
@@ -125,6 +129,23 @@
       ]
     },
     {
+      "key": "b676e65a-6990-4e09-81fc-f97cb6cf2b29",
+      "parentKey": "801fa852-6b77-4e8b-bc0c-f8f696dc6f00",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Containers"
+        },
+        {
+          "type": "DESC",
+          "data": "## Covers\n\n* Protects Kubernetes clusters running on Azure Kubernetes Service and Kubernetes on\\-premises/IaaS\n* Identifies misconfigurations in Kubernetes clusters\n* Vulnerability assessment for images stored in ACR registries\n* Vulnerability assessment for images running in Azure Kubernetes Service\n* Run\\-time threat protection for nodes and clusters\n* Provides guidelines to help investigate and mitigate identified threats\n\n\n\n## References:\n\nhttps://docs.microsoft.com/azure/defender\\-for\\-cloud/supported\\-machines\\-endpoint\\-solutions\\-clouds\\-containers?tabs=azure\\-aks&WT.mc\\_id=Portal\\-Microsoft\\_Azure\\_Security#supported\\-features\\-by\\-environment\n"
+        }
+      ]
+    },
+    {
       "key": "4cce8142-2e15-4437-a827-86360d8d512d",
       "parentKey": "1b30efbe-52c6-42e3-8dc2-b53fd376d423",
       "subKeys": [],
@@ -170,7 +191,8 @@
       "key": "801fa852-6b77-4e8b-bc0c-f8f696dc6f00",
       "parentKey": "71441a94-706d-43f2-8bc0-164c3859bbd5",
       "subKeys": [
-        "a941ea41-8387-4f17-893a-7609f262c8d6"
+        "a941ea41-8387-4f17-893a-7609f262c8d6",
+        "b676e65a-6990-4e09-81fc-f97cb6cf2b29"
       ],
       "collapse": false,
       "style": null,
@@ -312,7 +334,7 @@
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "Azure SQL"
+          "data": "Databases"
         }
       ]
     },
@@ -343,6 +365,10 @@
         {
           "type": "CONTENT",
           "data": "P1"
+        },
+        {
+          "type": "DESC",
+          "data": "## Plan P1\n\n* Microsoft Defender for Endpoint\n* Microsoft Defender vulnerability management\n* Automatic agent onboarding, alert and data integration\n\n"
         }
       ]
     },
@@ -412,6 +438,10 @@
         {
           "type": "CONTENT",
           "data": "P2"
+        },
+        {
+          "type": "DESC",
+          "data": "## Plan P2 \n\n* Microsoft Defender vulnerability management\n* Automatic agent onboarding, alert and data integration\n* Just\\-in\\-time VM access for management ports\n* Network layer threat detection\n* Adaptive application controls\n* File integrity monitoring\n* Adaptive network hardening\n* Integrated vulnerability assessment powered by Qualys\n* Log Analytics 500MB free data ingestion\n\n"
         }
       ]
     },
