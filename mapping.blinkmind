@@ -1,7 +1,7 @@
 {
   "rootTopicKey": "609740a2-bfaa-4b78-bf69-e0a88d79217c",
   "editorRootTopicKey": "609740a2-bfaa-4b78-bf69-e0a88d79217c",
-  "focusKey": "a941ea41-8387-4f17-893a-7609f262c8d6",
+  "focusKey": "5a36d153-e825-4254-addc-72ea0eaa6c43",
   "extData": {
     "TOPIC_REFERENCE": {
       "reference": {}
@@ -22,6 +22,10 @@
         {
           "type": "CONTENT",
           "data": "MS Defender for Cloud"
+        },
+        {
+          "type": "DESC",
+          "data": "## Interacts with: Microsoft Defender for Endpoint\n\n\n## What does it bring to the table?\n\n\n## Network Requirements\n\n\n## Price\n\n"
         }
       ]
     },
@@ -29,7 +33,8 @@
       "key": "3d20b4dd-2e0b-491f-ab42-e40d31562307",
       "parentKey": "609740a2-bfaa-4b78-bf69-e0a88d79217c",
       "subKeys": [
-        "5a36d153-e825-4254-addc-72ea0eaa6c43"
+        "91b4f556-15f7-4851-8d27-177e83fc389f",
+        "e6af0c46-59e6-4eee-aa13-a7fff1bdfa60"
       ],
       "collapse": false,
       "style": null,
@@ -101,6 +106,32 @@
       ]
     },
     {
+      "key": "6e9905e4-1029-40a4-9a85-8bfb6ab9e978",
+      "parentKey": "e6af0c46-59e6-4eee-aa13-a7fff1bdfa60",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Azure Arc"
+        }
+      ]
+    },
+    {
+      "key": "a548e1a4-57c7-4629-9535-51b8b138980c",
+      "parentKey": "91b4f556-15f7-4851-8d27-177e83fc389f",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Azure Arc"
+        }
+      ]
+    },
+    {
       "key": "2c8f2dd9-93c8-4d06-b8b9-484054f09610",
       "parentKey": "0f45b834-b20c-4434-8a71-343a4f687c3f",
       "subKeys": [
@@ -125,6 +156,19 @@
         {
           "type": "CONTENT",
           "data": "Data Connectors"
+        }
+      ]
+    },
+    {
+      "key": "5c8181ad-aa23-4e17-94c6-5779080cf89d",
+      "parentKey": "716cd011-e5ec-4d8c-bf39-0cefe1eb5629",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Microsoft Defender for Office 365"
         }
       ]
     },
@@ -184,6 +228,19 @@
         {
           "type": "CONTENT",
           "data": "External Threat Intelligence Sources"
+        }
+      ]
+    },
+    {
+      "key": "960ec313-1c87-4bb0-852c-81e338ff4584",
+      "parentKey": "716cd011-e5ec-4d8c-bf39-0cefe1eb5629",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Microsoft 365 Defender"
         }
       ]
     },
@@ -250,6 +307,19 @@
       ]
     },
     {
+      "key": "281c331f-282f-4559-b330-60f2546c1f97",
+      "parentKey": "e6af0c46-59e6-4eee-aa13-a7fff1bdfa60",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "MS Defender for Cloud"
+        }
+      ]
+    },
+    {
       "key": "48691d9a-efb1-49cd-9897-8acba15d32f5",
       "parentKey": "5a1c255d-a354-4b30-8aa6-77613251646f",
       "subKeys": [
@@ -296,6 +366,22 @@
       ]
     },
     {
+      "key": "91b4f556-15f7-4851-8d27-177e83fc389f",
+      "parentKey": "3d20b4dd-2e0b-491f-ab42-e40d31562307",
+      "subKeys": [
+        "5a36d153-e825-4254-addc-72ea0eaa6c43",
+        "a548e1a4-57c7-4629-9535-51b8b138980c"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "AWS"
+        }
+      ]
+    },
+    {
       "key": "981fe1e1-5685-49f0-a3ff-fc431ed43fa6",
       "parentKey": "7f9087d6-ad78-43af-a6e9-0708b7fd0c0b",
       "subKeys": [],
@@ -305,6 +391,10 @@
         {
           "type": "CONTENT",
           "data": "Microsoft Defender for Endpoint"
+        },
+        {
+          "type": "DESC",
+          "data": "## Interacts with: Operating System, Microsoft Defender for Cloud, Microsoft Sentinel\n\n\n## What does it bring to the table?\n\nIt is a realtime endpoint protection and security assessment tool.\n\n## Network Requirements\n\n\n## Price\n\n\n"
         }
       ]
     },
@@ -415,7 +505,7 @@
     },
     {
       "key": "5a36d153-e825-4254-addc-72ea0eaa6c43",
-      "parentKey": "3d20b4dd-2e0b-491f-ab42-e40d31562307",
+      "parentKey": "91b4f556-15f7-4851-8d27-177e83fc389f",
       "subKeys": [],
       "collapse": false,
       "style": null,
@@ -464,13 +554,32 @@
     {
       "key": "716cd011-e5ec-4d8c-bf39-0cefe1eb5629",
       "parentKey": "609740a2-bfaa-4b78-bf69-e0a88d79217c",
-      "subKeys": [],
+      "subKeys": [
+        "5c8181ad-aa23-4e17-94c6-5779080cf89d",
+        "960ec313-1c87-4bb0-852c-81e338ff4584"
+      ],
       "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
           "data": "Office 365"
+        }
+      ]
+    },
+    {
+      "key": "e6af0c46-59e6-4eee-aa13-a7fff1bdfa60",
+      "parentKey": "3d20b4dd-2e0b-491f-ab42-e40d31562307",
+      "subKeys": [
+        "281c331f-282f-4559-b330-60f2546c1f97",
+        "6e9905e4-1029-40a4-9a85-8bfb6ab9e978"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "GCP"
         }
       ]
     },
@@ -484,6 +593,10 @@
         {
           "type": "CONTENT",
           "data": "Data Control"
+        },
+        {
+          "type": "DESC",
+          "data": "## How much I produce?\n\n\n## What data is important to enhance my security visbility\n\n\n"
         }
       ]
     },

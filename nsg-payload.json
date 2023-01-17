@@ -1,0 +1,46 @@
+{
+    "value": [
+      {
+        "TimeGenerated": "2022-12-06T12:08:18.4497699Z",
+        "NSG": "hub-ent-we-01-subnet-mgmt-ent-we-01-nsg-westeurope",
+        "Resource": "AllowCidrBlockCustom3389Inbound",
+        "ResourceGroup": "NETWORK-ENT-WE-01",
+        "Operation": "Rule-write",
+        "Caller": "thborn@microsoft.com",
+        "CallerIpAddress": "149.90.167.143",
+        "Message": "Microsoft.Network/networkSecurityGroups/securityRules/write",
+        "ActivityStatusValue": "Start",
+        "Result": "Success",
+        "RequestBody": "{\"name\":\"AllowCidrBlockCustom3389Inbound\",\"id\":\"/subscriptions/df8cbdab-1ff9-48c1-9c87-b5454180f700/resourceGroups/network-ent-we-01/providers/Microsoft.Network/networkSecurityGroups/hub-ent-we-01-subnet-mgmt-ent-we-01-nsg-westeurope/securityRules/AllowCidrBlockCustom3389Inbound\",\"etag\":\"W/\\\"fb0cd786-726c-4190-8cfd-a165f807ce31\\\"\",\"type\":\"Microsoft.Network/networkSecurityGroups/securityRules\",\"properties\":{\"provisioningState\":\"Succeeded\",\"protocol\":\"*\",\"sourcePortRange\":\"*\",\"destinationPortRange\":\"*\",\"sourceAddressPrefix\":\"149.90.167.143\",\"destinationAddressPrefix\":\"*\",\"access\":\"Allow\",\"priority\":100,\"direction\":\"Inbound\",\"sourcePortRanges\":null,\"destinationPortRanges\":null,\"sourceAddressPrefixes\":null,\"destinationAddressPrefixes\":null,\"sourceApplicationSecurityGroups\":[],\"destinationApplicationSecurityGroups\":[]}}",
+        "ResourceId": "/subscriptions/df8cbdab-1ff9-48c1-9c87-b5454180f700/resourcegroups/network-ent-we-01/providers/microsoft.network/networksecuritygroups/hub-ent-we-01-subnet-mgmt-ent-we-01-nsg-westeurope/securityrules/allowcidrblockcustom3389inbound",
+        "SourcePortRange": "*",
+        "SourceAddressPrefix": "149.90.167.143",
+        "DestinationPortRange": "*",
+        "DestinationAddressPrefix": "*",
+        "Access": "Allow",
+        "Priority": "100",
+        "Direction": "Inbound"
+      },
+      {
+        "TimeGenerated": "2022-12-06T11:45:39.0345432Z",
+        "NSG": "hub-ent-we-01-subnet-mgmt-ent-we-01-nsg-westeurope",
+        "Resource": "AllowCidrBlockCustom3389Inbound",
+        "ResourceGroup": "NETWORK-ENT-WE-01",
+        "Operation": "Rule-create",
+        "Caller": "thborn@microsoft.com",
+        "CallerIpAddress": "149.90.167.143",
+        "Message": "Microsoft.Network/networkSecurityGroups/securityRules/write",
+        "ActivityStatusValue": "Start",
+        "Result": "Success",
+        "RequestBody": "{\"properties\":{\"protocol\":\"*\",\"sourcePortRanges\":null,\"sourcePortRange\":\"*\",\"sourceAddressPrefixes\":null,\"sourceAddressPrefix\":\"149.90.167.143\",\"destinationPortRanges\":null,\"destinationPortRange\":\"3389\",\"destinationAddressPrefixes\":null,\"destinationAddressPrefix\":\"*\",\"access\":\"Allow\",\"priority\":100,\"direction\":\"Inbound\",\"sourceApplicationSecurityGroups\":[],\"destinationApplicationSecurityGroups\":[]},\"id\":\"/subscriptions/df8cbdab-1ff9-48c1-9c87-b5454180f700/resourceGroups/network-ent-we-01/providers/Microsoft.Network/networkSecurityGroups/hub-ent-we-01-subnet-mgmt-ent-we-01-nsg-westeurope/securityRules/AllowCidrBlockCustom3389Inbound\",\"name\":\"AllowCidrBlockCustom3389Inbound\"}",
+        "ResourceId": "/subscriptions/df8cbdab-1ff9-48c1-9c87-b5454180f700/resourcegroups/network-ent-we-01/providers/microsoft.network/networksecuritygroups/hub-ent-we-01-subnet-mgmt-ent-we-01-nsg-westeurope/securityrules/allowcidrblockcustom3389inbound",
+        "SourcePortRange": "*",
+        "SourceAddressPrefix": "149.90.167.143",
+        "DestinationPortRange": "3389",
+        "DestinationAddressPrefix": "*",
+        "Access": "Allow",
+        "Priority": "100",
+        "Direction": "Inbound"
+      }
+    ]
+  }
